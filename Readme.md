@@ -2,7 +2,7 @@
 
 A simple screenshot web service powered by [Express](http://expressjs.com) and [PhantomJS](http://www.phantomjs.org/). Forked from [screenshot-app](http://github.com/visionmedia/screenshot-app).
 
-## Setup
+## Setup to be Done Beforehand
 
 First [install](http://code.google.com/p/phantomjs/wiki/Installation) phantomjs, then clone this repo and install the deps:
 
@@ -86,7 +86,7 @@ server:
   port: 3000           # main service port
 ```
 
-For instance, if you want to setup a proxy for phantomjs, create a `config/development.yaml` as follows:
+For an instance, if you want to setup a proxy for phantomjs, create a `config/development.yaml` as follows:
 
 ```yml
 rasterizer:
